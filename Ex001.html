@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css"> <!--  Como fazer comentarios no HTML.5 -->   <!-- Fui obrigado a escrever o link css pois não ia do modo q estava no video-->
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Verificador de idade</h1> 
+
+    </header>
+
+    <section>
+        <div>
+            <p> Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+
+            <p> Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminido</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()"> <!-- Onclick dispara um comando que será feita pelo js assim q ouver um click -->
+            </p>
+
+        </div>
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p> &copy; Curso Em Video </p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

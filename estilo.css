@@ -1,0 +1,27 @@
+body{ 
+    background-color: rgb(34, 219, 188);
+    font: normal 20pt Arial; 
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background-color: white; /* Fundo*/
+    border-radius: 20px; /* Bordas arredondadas*/
+    padding: 15px; /* delimitou a aultura do backgraund no Section */
+    width: 500px; /* delimitou a tamanho na horizontal */
+    margin: auto; /* Criou uma margem para o inicio do background */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.493); /* sombra*/
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
